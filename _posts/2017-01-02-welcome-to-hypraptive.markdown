@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to hypraptive!"
 author: hypraptive team
 date:   2017-01-02 21:50:00 -0800
+excerpt: "Introduction to hypraptive and this blog."
 ---
 This is the first post for hypraptive. Hypraptive is a vessel for a couple of developers to get together and work on interesting projects and applications.
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Diving into Deep Learning"
 author: Ed
 date:   2017-01-03 17:00:00 -0800
+excerpt: "How we got into deep learning."
 ---
 In 2016, my partner and I started to get interested in deep learning. Actually, I've had an interest in [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) ever since my days at [CMU](http://www.cmu.edu/) where I worked on neural network projects in cognitive psychology courses. When I graduated, there just weren't many jobs in that area, so I lost track of the space for quite a while. In the past few years, AI has made a significant comeback, especially under the guise of deep learning and autonomous driving. I thought it was time to get involved.
 
