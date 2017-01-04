@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hypraptive is a vessel for a couple of developers to get together and work on interesting projects and applications. We are hyperactive about great applications!
+![hypraptive](/assets/hypraptive_logo_100x100.png){:align="left" style="margin-right:20px; margin-bottom:0px;"}Hypraptive is a vessel for a couple of developers to get together and work on interesting projects and applications.
+
+We are hyperactive about great applications!
 
 ## Hypraptive Team
 
