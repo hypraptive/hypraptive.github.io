@@ -2,7 +2,7 @@
 layout: post
 title:  "Diving into Deep Learning"
 author: Ed
-date:   2017-01-03 17:00:00 -0800
+date:   2017-01-03 17:00:00
 excerpt: "How we got into deep learning."
 ---
 ### Some Background
