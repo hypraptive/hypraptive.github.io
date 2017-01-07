@@ -3,7 +3,7 @@ layout: post
 title:  "Blogging with GitHub Pages and Jekyll"
 author: Ed
 date:   2017-01-05 14:00:00
-excerpt: "How do we tell one bear from another, and how can this help us train a computer to do so?."
+excerpt: "How we got this blog up and running with GitHub Pages and Jekyll."
 ---
 Since we are fairly new to [Jekyll](http://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/), I thought I would take a few minutes to discuss our experience with the platform so far. As I mentioned in the [first blog](https://hypraptive.github.io/2017/01/02/welcome-to-hypraptive.html), we decided to go down this path after reading Andrej Karpathy's blog [Switching Blog from Wordpress to Jekyll](http://karpathy.github.io/2014/07/01/switching-to-jekyll/). Andrej's post list some of the reasons for using Jekyll rather than other blogging platforms, and he provides a good example of a work flow. His blog is simple and clean, so I figured I could do something similar. While it's pretty straight forward, I did encounter a few bumps along the way.
 
