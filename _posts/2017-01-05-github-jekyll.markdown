@@ -18,7 +18,15 @@ To set up the blog, I started following the instructions on the [GitHub Pages](h
 
 I looked at a few blogs to see how they got started, but the problem is, the process changes as Jekyll changes. So I decided to follow the [Jekyll Quick Start Guide](https://jekyllrb.com/docs/quickstart/). Actually, I started out with the [Installation Guide](https://jekyllrb.com/docs/installation/). Fortunately, I already had all of the prerequisites on my MacBook Pro (Ruby, RubyGems, NodeJS and Python 2.7). Installing the Jekyll gem is a simple command, but as I was creating my new site, I realized I missed the step about installing [bundler](https://rubygems.org/gems/bundler). As the time I'm writing this post, the default theme makes use of bundler, which wasn't the case earlier on. This is an example of the kind of changes to watch out for in any open source project (it is also why I am not including all the command lines).
 
-Once I realized I needed bundler, I ran into my next problem. During one of the steps I started getting an error related to a specific version of [nokogiri](https://rubygems.org/gems/nokogiri). After much searching an multiple attempts, I was finally able to get around this problem (at least in my specific case) with:
+Once I realized I needed bundler, I ran into my next problem. During one of the steps I started getting an error related to a specific version of [nokogiri](https://rubygems.org/gems/nokogiri).
+
+```
+Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+[stuff deleted]
+An error occurred while installing nokogiri (1.6.8.1), and Bundler cannot continue.
+```
+
+After much searching and multiple attempts, I was finally able to get around this problem (at least in my specific case) with:
 
 ```
 sudo ARCHFLAGS='-arch x86_64' gem install nokogiri:1.6.8.1 -- --use-system-libraries
