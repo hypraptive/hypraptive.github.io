@@ -5,7 +5,7 @@ author: Ed
 date:   2017-01-13 14:00:00
 excerpt: "A brief overview of existing deep learning and computer vision projects aimed at identifying animals in the wild."
 ---
-Before we jumped in to this brown bear identification project, we needed to figure out what already been done. It turns out there are a number of animal identification projects and research papers out there. So far we have not found anything immediately suitable for brown bears.
+Before we jumped in to this brown bear identification project, we needed to figure out what has already been done. It turns out there are a number of animal identification projects and research papers out there. So far we have not found anything immediately suitable for brown bears.
 
 ### Wildbook
 
