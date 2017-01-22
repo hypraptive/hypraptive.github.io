@@ -1,2 +1,2 @@
 # hypraptive.github.io
-hypraptive blog
+hypraptive blog at hypraptive.github.io.
