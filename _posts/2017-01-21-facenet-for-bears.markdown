@@ -48,7 +48,7 @@ In practice, training requires millions of triplets to achieve a well performing
 
 Once we have an embedding for the face, all that remains is to find the bear in our database which is the closest match. This can be achieved with any basic classification algorithm. An [SVM classifier](https://en.wikipedia.org/wiki/Support_vector_machine) was used in the referenced article. We would probably use something similar.
 
-### Let's Get started
+### Let's Get Started
 
 To get started, we need to collect a bunch of images of bears. For face detection and orientation, we can use any brown bear images. We can collect these by sifting through Google images searches and the like. At the beginning, we will focus on images where the bear is facing mostly forward. We'll need to annotate a training set with bounding boxes for the faces and whichever landmark points we will use for orientation. For training the face encoder, we will need pairs of known bears. Most likely these will come from web postings and photo galleries related to Brooks River. We have also contacted Katmai National Park to try to get some images. We can add random other bear images to complete the triplets. Our database of known bears will consist of regularly sighted bears listed in the [Bears of Brooks River eBooks](https://www.nps.gov/katm/learn/photosmultimedia/ebooks.htm).
 
