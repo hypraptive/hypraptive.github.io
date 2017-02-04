@@ -38,6 +38,6 @@ cmake --build . --config Release
 
 To get started with making our own object detector, we read through the dlib blog post: ["Make your own object detector!"](http://blog.dlib.net/2014/02/dlib-186-released-make-your-own-object.html) The blog post discusses the example programs provided with dlib. We tried out their [face detection example program](http://dlib.net/face_detection_ex.cpp.html) which works pretty well. Next we replicated their face detection example using the [FHOG object detector example](http://dlib.net/fhog_object_detector_ex.cpp.html), which uses only 4 images containing a total of 18 faces for training. Even with the small training set, the resulting detector works pretty well.
 
-### Nest Steps
+### Next Steps
 
 The fact that we can train a decent face detector with only a few training images on a laptop gives us hope. Next time we will try to build a detector for bear faces using the dlib [Train Object Detector](http://dlib.net/train_object_detector.cpp.html) command line tool example.
