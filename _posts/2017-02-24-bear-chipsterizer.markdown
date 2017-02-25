@@ -100,6 +100,10 @@ Running it on a small set of images, we get something like these:
 
 ## Next Steps
 
-With our dlib based `bearchip` program, we have a first cut at both **stage 1 (Find the Face)** and **stage 2 (Reorient Each Face)**. To improve accuracy, we will likely need to replace the pre-trained Dog Hipsterizer DNN with one we train on bears. We may also need to improve the reorientation at some point. We can experement with improving **stage 1 and 2** in the future. For now we will move on to **stage 3 (Encode the Face)**. That's where we will really put our deep learning machine (and this whole project) to the test.
+With our dlib based `bearchip` program, we have a first cut at both **stage 1 (Find the Face)** and **stage 2 (Reorient Each Face)**. To improve accuracy, we will likely need to replace the pre-trained Dog Hipsterizer DNN with one we train on bears. We may also need to improve the reorientation at some point. We can experiment with improving **stage 1 and 2** in the future.
+
+For now we will move on to **stage 3 (Encode the Face)**. For that, we need to build up a dataset of images of known bears. As we build the dataset, we sill use `bearchip` to generate our face chip dataset. We will use the face chip dataset to train a face recognition network following dlib's [High Quality Face Recognition with Deep Metric Learning](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html). That's where we will really put our deep learning machine (and this whole project) to the test.
+
+**If you know of good sources of bear image, where there bear in the image has been identified, please let us know in the comments section!**
 
 Until next time, **SBD**.
