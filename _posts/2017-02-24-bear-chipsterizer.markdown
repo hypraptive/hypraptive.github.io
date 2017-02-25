@@ -19,7 +19,7 @@ Dlib is pretty straight forward to download and compile. You can follow the simp
 
 ### Performance Comparison (CPU vs GPU)
 
-We ended up building both a CPU-only (before we installed CUDA) and a GPU version of dlib. Our intention was to compare the performance. We decided to use the [](http://dlib.net/dnn_mmod_ex.cpp.html) as our benchmark. The example program trains a CNN based face detector using a small set of training data. We figured this example would make good use of the GPU due to the CNN, and didn't require downloading a huge dataset.
+We ended up building both a CPU-only (before we installed CUDA) and a GPU version of dlib. Our intention was to compare the performance. We decided to use the [Deep Learning Max-Margin Object Detection example](http://dlib.net/dnn_mmod_ex.cpp.html) as our benchmark. The example program trains a CNN based face detector using a small set of training data. We figured this example would make good use of the GPU due to the CNN, and didn't require downloading a huge dataset.
 
 The example ran on the GPU in about 47 minutes to run 7,268 training steps. The CPU ran **a lot** slower. To be fair, we did not enable any CPU optimizations (SSE4 or AVX). After about 5 days, the CPU run was at around step 4,000 when we lost power! **[Note to self: look into getting an uninterruptible power supply (UPS)!]**
 
@@ -102,7 +102,7 @@ Running it on a small set of images, we get something like these:
 
 With our dlib based `bearchip` program, we have a first cut at both **stage 1 (Find the Face)** and **stage 2 (Reorient Each Face)**. To improve accuracy, we will likely need to replace the pre-trained Dog Hipsterizer DNN with one we train on bears. We may also need to improve the reorientation at some point. We can experiment with improving **stage 1 and 2** in the future.
 
-For now we will move on to **stage 3 (Encode the Face)**. For that, we need to build up a dataset of images of known bears. As we build the dataset, we sill use `bearchip` to generate our face chip dataset. We will use the face chip dataset to train a face recognition network following dlib's [High Quality Face Recognition with Deep Metric Learning](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html). That's where we will really put our deep learning machine (and this whole project) to the test.
+For now we will move on to **stage 3 (Encode the Face)**. For that, we need to build up a dataset of images of known bears. As we build up the bear image dataset, we will use `bearchip` to generate our bear face chip dataset. We will use the bear face chip dataset to train a face recognition network following dlib's [High Quality Face Recognition with Deep Metric Learning](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html). That's where we will really put our deep learning machine (and this whole project) to the test.
 
 **If you know of good sources of bear image, where there bear in the image has been identified, please let us know in the comments section!**
 
