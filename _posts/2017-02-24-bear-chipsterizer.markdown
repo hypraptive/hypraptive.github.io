@@ -104,6 +104,6 @@ With our dlib based `bearchip` program, we have a first cut at both **stage 1 (F
 
 For now we will move on to **stage 3 (Encode the Face)**. For that, we need to build up a dataset of images of known bears. As we build up the bear image dataset, we will use `bearchip` to generate our bear face chip dataset. We will use the bear face chip dataset to train a face recognition network following dlib's [High Quality Face Recognition with Deep Metric Learning](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html). That's where we will really put our deep learning machine (and this whole project) to the test.
 
-**If you know of good sources of bear image, where there bear in the image has been identified, please let us know in the comments section!**
+**If you know of good sources of bear images, where there bear in the image has been identified, please let us know in the comments section!**
 
 Until next time, **SBD**.
