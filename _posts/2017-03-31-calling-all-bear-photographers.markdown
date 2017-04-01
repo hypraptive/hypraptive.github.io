@@ -5,7 +5,7 @@ author: Ed
 date:   2017-03-31 16:00:00
 excerpt: "A cry for help to find more bear photos for training our BearID program."
 ---
-Yesterday we posted [BearID 1.0](/2017/03/30/bearid-1-0.html), where we announced version 1.0 of our open source, deep learning based bear identification program. In the **Next Steps** section of that post, we discussed the need to get more bear photos which can be used to improve the accuracy of the `bearid` program. We are also investigating the use of videos for training.
+Yesterday we posted [BearID 1.0](/2017/03/30/bearid-1-0.html), where we announced version 1.0 of our open source, deep learning based bear identification program. In the **Next Steps** section of that post, we discussed the need to get more bear photos which can be used to improve the accuracy of the `bearid` program. We have about 800 usable photos so far, mainly from the Flickr albums of [Carla Ferris](https://www.flickr.com/photos/129908461@N03/albums/with/72157672138992512) and [Ike Fitz](https://www.flickr.com/photos/ikefitz/albums). We are in contact with the rangers at Katmai National Park to see if we can get their photos and we are also investigating the use of videos for training.
 
 This is a call to anyone with brown bear photos or videos who is willing to contribute their content to our efforts. Photos and videos will only be used for training our `bearid` program. For more information about this project, you can find all the blog postings at [hypraptive.github.io](/).
 
