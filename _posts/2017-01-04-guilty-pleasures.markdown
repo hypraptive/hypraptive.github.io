@@ -13,7 +13,7 @@ If passively watching is not enough, you can join the discussion on the Explore 
 
 ![480 Otis](/assets/480otis.jpg){: figure }
 
-But I don't know all the bears and I certainly can't tell them all apart. It would be cool if I can find out which bears I'm watching on the cam, or who I just captured in a [snaphot](http://blog.explore.org/snapshots/). The Explore community is very helpful. Often someone in the community has identified which bears are on camera and posted in the comments. But even the experts have difficulty telling the bears apart. Could machine learning do any better?
+But I don't know all the bears and I certainly can't tell them all apart. It would be cool if I can find out which bears I'm watching on the cam, or who I just captured in a [snapshot](http://blog.explore.org/snapshots/). The Explore community is very helpful. Often someone in the community has identified which bears are on camera and posted in the comments. But even the experts have difficulty telling the bears apart. Could machine learning do any better?
 
 Hang on a minute. I know that CNNs can distinguish, for example, between a brown bear and a polar bear. That's already part of the ImageNet data set. But can we train a machine to tell, say, [480 Otis](https://www.flickr.com/photos/katmainps/galleries/72157634850500991/) from [435 Holly](https://www.flickr.com/photos/katmainps/galleries/72157634823125686/)?
 
