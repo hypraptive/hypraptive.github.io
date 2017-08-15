@@ -38,7 +38,7 @@ That's all there was to it!
 
 ### Next Steps
 
-Out top priority is still **get more data!**
+Our top priority is still **get more data!**
 
 Now that `bearchip` can extract bear face chips from videos, we have started downloading videos of the Brooks Falls bears from the Internet. We need to make sure the bears are accurately identified. We also need to run some experiments to see if the similarity between chips extracted from a given video causes a data bias. If all works out, this should be a good way to grow our dataset more quickly.
 
