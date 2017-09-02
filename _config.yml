@@ -17,11 +17,12 @@ title: hypraptive
 author: hyperaptive team
 #email: info@hypraptive.com
 description: > # this means to ignore newlines until "baseurl:"
-  Blog for hypraptive.
+  The hypraptive blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hypraptive.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  hypraptive
+twitter_username: bluevalhalla
 
 # Build settings
 markdown: kramdown
