@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BearID Project
-permalink: /bearid/
+permalink: /bearid-project/
 ---
 
 ![Brooks Falls](/assets/brooks-falls-banner.jpg)
