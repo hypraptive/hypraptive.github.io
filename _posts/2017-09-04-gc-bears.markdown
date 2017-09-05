@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "The Bears of Glendale Cove, BC"
+author: Ed
+date:   2017-09-04 16:00:00
+excerpt: "An overview of the bear data we received from Glendale Cove via BBRN."
+---
+
+![Bears of Glendale Cove](/assets/glendale-cove/gc-collage.jpg)
+
+The postal services of Canada and the USA were finally able to deliver the flash card full of bear images from the [BBRN](http://bearresearch.org/)! The images we received from the BBRN are of bears from Glendale Cove, located on the south side of Knight Inlet along the central coast of British Columbia, Canada. This is one of a number of sights where the BBRN have been monitoring bears for a number of years.
+
+From the dataset provided, we have extracted 1309 bear face chips representing 59 different individuals. Combined with what we have from [Brooks Falls](/2017/08/14/many-faces-of-brooks-falls.html) so far, we have a total of about 2500 faces from 106 different bears.
+
+Below is a table of the Glendale Cove bear chip data. The table has a row for each bear. The columns are:
+
+* **ID**: the bear's identification name
+* **Count**: the number of face chips we have for the bear
+* **Example Face Images**: a few example face chips (normalized and cropped) for the bear
+
+ID | Count | Example Face Images
+---- | :----: | ----
+Adeane | 1 | ![](/assets/glendale-cove/bc_adeane/001.jpg)
+Also | 23 | ![](/assets/glendale-cove/bc_also/001.jpg) ![](/assets/glendale-cove/bc_also/002.jpg) ![](/assets/glendale-cove/bc_also/003.jpg)
+Amber | 85 |![](/assets/glendale-cove/bc_amber/001.jpg) ![](/assets/glendale-cove/bc_amber/002.jpg) ![](/assets/glendale-cove/bc_amber/003.jpg)
+Aurora | 11 | ![](/assets/glendale-cove/bc_aurora/001.jpg) ![](/assets/glendale-cove/bc_aurora/002.jpg) ![](/assets/glendale-cove/bc_aurora/003.jpg)
+Beatrice | 50 | ![](/assets/glendale-cove/bc_beatrice/001.jpg) ![](/assets/glendale-cove/bc_beatrice/002.jpg) ![](/assets/glendale-cove/bc_beatrice/003.jpg)
+Bella | 83 | ![](/assets/glendale-cove/bc_bella/001.jpg) ![](/assets/glendale-cove/bc_bella/002.jpg) ![](/assets/glendale-cove/bc_bella/003.jpg)
+Bellanore | 32 | ![](/assets/glendale-cove/bc_bellanore/001.jpg) ![](/assets/glendale-cove/bc_bellanore/002.jpg) ![](/assets/glendale-cove/bc_bellanore/003.jpg)
+Bracket | 7 | ![](/assets/glendale-cove/bc_bracket/001.jpg) ![](/assets/glendale-cove/bc_bracket/002.jpg) ![](/assets/glendale-cove/bc_bracket/003.jpg)
+Bruno | 5 | ![](/assets/glendale-cove/bc_bruno/001.jpg) ![](/assets/glendale-cove/bc_bruno/002.jpg) ![](/assets/glendale-cove/bc_bruno/003.jpg)
+Caramel | 27 | ![](/assets/glendale-cove/bc_caramel/001.jpg) ![](/assets/glendale-cove/bc_caramel/002.jpg) ![](/assets/glendale-cove/bc_caramel/003.jpg)
+Chestnut | 26 | ![](/assets/glendale-cove/bc_chestnut/001.jpg) ![](/assets/glendale-cove/bc_chestnut/002.jpg) ![](/assets/glendale-cove/bc_chestnut/003.jpg)
+Cleo | 10 | ![](/assets/glendale-cove/bc_cleo/001.jpg) ![](/assets/glendale-cove/bc_cleo/002.jpg) ![](/assets/glendale-cove/bc_cleo/003.jpg)
+Clyde | 6 | ![](/assets/glendale-cove/bc_clyde/001.jpg) ![](/assets/glendale-cove/bc_clyde/002.jpg) ![](/assets/glendale-cove/bc_clyde/003.jpg)
+Coco | 6 | ![](/assets/glendale-cove/bc_coco/001.jpg) ![](/assets/glendale-cove/bc_coco/002.jpg) ![](/assets/glendale-cove/bc_coco/003.jpg)
+Cross Paw | 6 | ![](/assets/glendale-cove/bc_cross-paw/001.jpg) ![](/assets/glendale-cove/bc_cross-paw/002.jpg) ![](/assets/glendale-cove/bc_cross-paw/003.jpg)
+Dani Bear | 27 | ![](/assets/glendale-cove/bc_dani-bear/001.jpg) ![](/assets/glendale-cove/bc_dani-bear/002.jpg) ![](/assets/glendale-cove/bc_dani-bear/003.jpg)
+Diablo | 4 | ![](/assets/glendale-cove/bc_diablo/001.jpg) ![](/assets/glendale-cove/bc_diablo/002.jpg) ![](/assets/glendale-cove/bc_diablo/003.jpg)
+Fisher | 29 | ![](/assets/glendale-cove/bc_fisher/001.jpg) ![](/assets/glendale-cove/bc_fisher/002.jpg) ![](/assets/glendale-cove/bc_fisher/003.jpg)
+Flora | 46 | ![](/assets/glendale-cove/bc_flora/001.jpg) ![](/assets/glendale-cove/bc_flora/002.jpg) ![](/assets/glendale-cove/bc_flora/003.jpg)
+Frank | 38 | ![](/assets/glendale-cove/bc_frank/001.jpg) ![](/assets/glendale-cove/bc_frank/002.jpg) ![](/assets/glendale-cove/bc_frank/003.jpg)
+Freckles | 12 | ![](/assets/glendale-cove/bc_freckles/001.jpg) ![](/assets/glendale-cove/bc_freckles/002.jpg) ![](/assets/glendale-cove/bc_freckles/003.jpg)
+Freda | 1 | ![](/assets/glendale-cove/bc_freda/001.jpg)
+Freya | 3 | ![](/assets/glendale-cove/bc_freya/001.jpg) ![](/assets/glendale-cove/bc_freya/002.jpg) ![](/assets/glendale-cove/bc_freya/003.jpg)
+Gary | 11 | ![](/assets/glendale-cove/bc_gary/001.jpg) ![](/assets/glendale-cove/bc_gary/002.jpg) ![](/assets/glendale-cove/bc_gary/003.jpg)
+GC | 63 | ![](/assets/glendale-cove/bc_gc/001.jpg) ![](/assets/glendale-cove/bc_gc/002.jpg) ![](/assets/glendale-cove/bc_gc/003.jpg)
+Glory | 4 | ![](/assets/glendale-cove/bc_glory/001.jpg) ![](/assets/glendale-cove/bc_glory/002.jpg) ![](/assets/glendale-cove/bc_glory/003.jpg)
+Hoeya | 21 | ![](/assets/glendale-cove/bc_hoeya/001.jpg) ![](/assets/glendale-cove/bc_hoeya/002.jpg) ![](/assets/glendale-cove/bc_hoeya/003.jpg)
+Jaque | 13 | ![](/assets/glendale-cove/bc_jaque/001.jpg) ![](/assets/glendale-cove/bc_jaque/002.jpg) ![](/assets/glendale-cove/bc_jaque/003.jpg)
+Kiokh | 4 | ![](/assets/glendale-cove/bc_kiokh/001.jpg) ![](/assets/glendale-cove/bc_kiokh/002.jpg) ![](/assets/glendale-cove/bc_kiokh/003.jpg)
+Kwatse | 42 | ![](/assets/glendale-cove/bc_kwatse/001.jpg) ![](/assets/glendale-cove/bc_kwatse/002.jpg) ![](/assets/glendale-cove/bc_kwatse/003.jpg)
+Lenore | 65 | ![](/assets/glendale-cove/bc_lenore/001.jpg) ![](/assets/glendale-cove/bc_lenore/002.jpg) ![](/assets/glendale-cove/bc_lenore/003.jpg)
+Lillian | 18 | ![](/assets/glendale-cove/bc_lillian/001.jpg) ![](/assets/glendale-cove/bc_lillian/002.jpg) ![](/assets/glendale-cove/bc_lillian/003.jpg)
+Lil' Willy | 35 | ![](/assets/glendale-cove/bc_lil-willy/001.jpg) ![](/assets/glendale-cove/bc_lil-willy/002.jpg) ![](/assets/glendale-cove/bc_lil-willy/003.jpg)
+Lucky | 46 | ![](/assets/glendale-cove/bc_lucky/001.jpg) ![](/assets/glendale-cove/bc_lucky/002.jpg) ![](/assets/glendale-cove/bc_lucky/003.jpg)
+Matsui | 6 | ![](/assets/glendale-cove/bc_matsui/001.jpg) ![](/assets/glendale-cove/bc_matsui/002.jpg) ![](/assets/glendale-cove/bc_matsui/003.jpg)
+Millerd | 13 | ![](/assets/glendale-cove/bc_millerd/001.jpg) ![](/assets/glendale-cove/bc_millerd/002.jpg) ![](/assets/glendale-cove/bc_millerd/003.jpg)
+Mouse | 29 | ![](/assets/glendale-cove/bc_mouse/001.jpg) ![](/assets/glendale-cove/bc_mouse/002.jpg) ![](/assets/glendale-cove/bc_mouse/003.jpg)
+Neana | 41 | ![](/assets/glendale-cove/bc_neana/001.jpg) ![](/assets/glendale-cove/bc_neana/002.jpg) ![](/assets/glendale-cove/bc_neana/003.jpg)
+No Tail | 7 | ![](/assets/glendale-cove/bc_no-tail/001.jpg) ![](/assets/glendale-cove/bc_no-tail/002.jpg) ![](/assets/glendale-cove/bc_no-tail/003.jpg)
+Old Girl | 9 | ![](/assets/glendale-cove/bc_old-girl/001.jpg) ![](/assets/glendale-cove/bc_old-girl/002.jpg) ![](/assets/glendale-cove/bc_old-girl/003.jpg)
+Oso | 13 | ![](/assets/glendale-cove/bc_oso/001.jpg) ![](/assets/glendale-cove/bc_oso/002.jpg) ![](/assets/glendale-cove/bc_oso/003.jpg)
+Peanut | 15 | ![](/assets/glendale-cove/bc_peanut/001.jpg) ![](/assets/glendale-cove/bc_peanut/002.jpg) ![](/assets/glendale-cove/bc_peanut/003.jpg)
+Pete | 25 | ![](/assets/glendale-cove/bc_pete/001.jpg) ![](/assets/glendale-cove/bc_pete/002.jpg) ![](/assets/glendale-cove/bc_pete/003.jpg)
+Pirate | 1 | ![](/assets/glendale-cove/bc_pirate/001.jpg)
+Pretty Boy | 3 | ![](/assets/glendale-cove/bc_pretty-boy/001.jpg) ![](/assets/glendale-cove/bc_pretty-boy/002.jpg) ![](/assets/glendale-cove/bc_pretty-boy/003.jpg)
+River | 21 | ![](/assets/glendale-cove/bc_river/001.jpg) ![](/assets/glendale-cove/bc_river/002.jpg) ![](/assets/glendale-cove/bc_river/003.jpg)
+Sallie | 7 | ![](/assets/glendale-cove/bc_sallie/001.jpg) ![](/assets/glendale-cove/bc_sallie/002.jpg) ![](/assets/glendale-cove/bc_sallie/003.jpg)
+Santa | 7 | ![](/assets/glendale-cove/bc_santa/001.jpg) ![](/assets/glendale-cove/bc_santa/002.jpg) ![](/assets/glendale-cove/bc_santa/003.jpg)
+Shaniqua | 8 | ![](/assets/glendale-cove/bc_shaniqua/001.jpg) ![](/assets/glendale-cove/bc_shaniqua/002.jpg) ![](/assets/glendale-cove/bc_shaniqua/003.jpg)
+Simoom | 12 | ![](/assets/glendale-cove/bc_simoom/001.jpg) ![](/assets/glendale-cove/bc_simoom/002.jpg) ![](/assets/glendale-cove/bc_simoom/003.jpg)
+Stella | 8 | ![](/assets/glendale-cove/bc_stella/001.jpg) ![](/assets/glendale-cove/bc_stella/002.jpg) ![](/assets/glendale-cove/bc_stella/003.jpg)
+Steve | 37 | ![](/assets/glendale-cove/bc_steve/001.jpg) ![](/assets/glendale-cove/bc_steve/002.jpg) ![](/assets/glendale-cove/bc_steve/003.jpg)
+Teddy Blonde | 24 | ![](/assets/glendale-cove/bc_teddy-blonde/001.jpg) ![](/assets/glendale-cove/bc_teddy-blonde/002.jpg) ![](/assets/glendale-cove/bc_teddy-blonde/003.jpg)
+Teddy Brown | 14 | ![](/assets/glendale-cove/bc_teddy-brown/001.jpg) ![](/assets/glendale-cove/bc_teddy-brown/002.jpg) ![](/assets/glendale-cove/bc_teddy-brown/003.jpg)
+Thumper | 0 | ![](/assets/glendale-cove/bc_thumper/need-photo.jpg)
+Toffee | 23 | ![](/assets/glendale-cove/bc_toffee/001.jpg) ![](/assets/glendale-cove/bc_toffee/002.jpg) ![](/assets/glendale-cove/bc_toffee/003.jpg)
+Topaz | 37 | ![](/assets/glendale-cove/bc_topaz/001.jpg) ![](/assets/glendale-cove/bc_topaz/002.jpg) ![](/assets/glendale-cove/bc_topaz/003.jpg)
+Trouble | 26 | ![](/assets/glendale-cove/bc_trouble/001.jpg) ![](/assets/glendale-cove/bc_trouble/002.jpg) ![](/assets/glendale-cove/bc_trouble/003.jpg)
+Tuna | 28 | ![](/assets/glendale-cove/bc_tuna/001.jpg) ![](/assets/glendale-cove/bc_tuna/002.jpg) ![](/assets/glendale-cove/bc_tuna/003.jpg)
+Ursa | 35 | ![](/assets/glendale-cove/bc_ursa/001.jpg) ![](/assets/glendale-cove/bc_ursa/002.jpg) ![](/assets/glendale-cove/bc_ursa/003.jpg)
+
+# More Photos Please
+
+If you have decent quality photos or videos of the Glendale Cove bears, or of any other brown bears, please contact us at bearid [at] hypraptive [dot] com or photos [at] bearresearch [dot] org.
