@@ -51,9 +51,9 @@ An example of stereo camera is the [ZED from Stereolabs](https://www.stereolabs.
 
 [Structured light](https://en.wikipedia.org/wiki/Structured_light) utilizes a projected pattern of light to augment the scene. Patterns can range from lines and grids to random dot patterns. The camera senses the scene and calculates the depth information based on the deformation of the known pattern. To avoid disrupting the scene, the projected light pattern is often something outside the visible spectrum, such as infrared (IR).
 
-![Intel RealSense R200](/assets/seeing-in-3d/realsense-r200-crop.jpg)
+![Intel RealSense R200](/assets/seeing-in-3d/realsense-d435-d415.jpg)
 
-Some good examples using of a structured light are the latest [Intel RealSense](https://realsense.intel.com/‎) cameras (R200 pictured above). They actually combine structured light and stereo (**Structure+Stereo**) by utilizing an IR projection and two IR image sensors to provide more accurate depth information. The depth map is combined with a color camera to produce point clouds.
+Some good examples using of a structured light are the latest [Intel RealSense](https://realsense.intel.com/‎) cameras, D415 and D435 (pictured above). They actually combine structured light and stereo (**Structure+Stereo**) by utilizing an IR projection and two IR image sensors to provide more accurate depth information. The depth map is combined with a color camera to produce point clouds.
 
 > Pros: Fairly small; easier computation; Structure+Stereo has better resolution and accuracy compared to Structured or Stereo alone
 >
