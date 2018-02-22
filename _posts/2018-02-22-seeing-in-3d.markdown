@@ -23,7 +23,7 @@ The following sections describe various 3D imaging technologies.
 
 ![Structure from Motion Diagram](/assets/seeing-in-3d/sfm-diagram.gif)
 
-These calculations can be used to create a point cloud of the scene, but only if there are a sufficient number of images with sufficient overlap. Since this method produces a 3D structure using photos from various locations, it is also known as [Structure from Motion](https://en.wikipedia.org/wiki/Structure_from_motion). For an interesting example of SfM, check out [Building Rome in a Day](http://grail.cs.washington.edu/projects/rome/), where a research team from the University of Washington reconstructed 3D models of Rome (and a few other cities) using photos harvested from Flickr.
+These calculations can be used to create a point cloud of the scene, but only if there are a sufficient number of images with sufficient overlap. Since this method produces a 3D structure using photos from various locations, it is also known as [Structure from Motion](https://en.wikipedia.org/wiki/Structure_from_motion) (SfM). For an interesting example of SfM, check out [Building Rome in a Day](http://grail.cs.washington.edu/projects/rome/), where a research team from the University of Washington reconstructed 3D models of Rome (and a few other cities) using photos harvested from Flickr.
 
 > Pros: Can use any digital cameras; no light projection
 >
@@ -31,7 +31,13 @@ These calculations can be used to create a point cloud of the scene, but only if
 
 ### Stereo Camera
 
-A stereo camera utilizes two image sensors fixed at a known distance and orientation to emulate binocular vision. This is a special case of photogrammetry called stereophotogrammetry. The stereo setup can be used to calculate a [depth map](https://en.wikipedia.org/wiki/Depth_map) using triangulation. The depth information can be combined with the RGB data to calculate a of the scene. The calculations are similar to photogrammetry, but the relationship between the two cameras is known.
+A stereo camera utilizes two image sensors fixed at a known distance and orientation to emulate binocular vision. This is a special case of photogrammetry called stereophotogrammetry. The stereo setup can be used to calculate a [depth map](https://en.wikipedia.org/wiki/Depth_map) using triangulation.
+
+A depth map is a 2D representation of the 3D information. Each pixel in the depth map represents the distance of the corresponding object from the camera. Here's an example depth map image, where the redder areas are nearer and the bluer areas are father.
+
+![Depth Map](/assets/seeing-in-3d/librealsense-depth.png)
+
+The depth information can be combined with the RGB data to calculate a point cloud of the scene. The calculations for a stereo camera are similar to photogrammetry, but the relationship between the two cameras is known, requiring less computation.
 
 An example of stereo camera is the [ZED from Stereolabs](https://www.stereolabs.com/zed/).
 
@@ -43,7 +49,7 @@ An example of stereo camera is the [ZED from Stereolabs](https://www.stereolabs.
 
 ### Structured Light Camera
 
-[Structured light](https://en.wikipedia.org/wiki/Structured_light) utilizes a projected pattern of light onto the scene. Patterns can range from lines and grids to random dot patterns. The camera senses the scene and calculates the depth information based on the deformation of the known pattern. To avoid disrupting the scene, the projected light pattern is often something outside the visible spectrum, such as infrared (IR).
+[Structured light](https://en.wikipedia.org/wiki/Structured_light) utilizes a projected pattern of light to augment the scene. Patterns can range from lines and grids to random dot patterns. The camera senses the scene and calculates the depth information based on the deformation of the known pattern. To avoid disrupting the scene, the projected light pattern is often something outside the visible spectrum, such as infrared (IR).
 
 ![Intel RealSense R200](/assets/seeing-in-3d/realsense-r200-crop.jpg)
 
@@ -65,7 +71,7 @@ Some good examples using of a structured light are the latest [Intel RealSense](
 
 ### Time of Flight (ToF) Camera
 
-Similar to LiDAR, a [Time of Flight Camera](https://en.wikipedia.org/wiki/Time-of-flight_camera) also determines distance by measuring the "time of flight" of light. Rather than scanning a single laser across a scene, the ToF camera projects a broad beam and captures the entire scene at once. The sensors are arranged in a grid, much like image sensors, and distance is measured on a pixel by pixel basis. The are a number of projection/sensing technologies including phase detection, range gated imagers and direct ToF imagers. ToF camera technology is sometimes referred to as scannerless LiDAR or Flash LiDAR.
+Similar to LiDAR, a [Time of Flight (ToF) Camera](https://en.wikipedia.org/wiki/Time-of-flight_camera) also determines distance by measuring the "time of flight" of light. Rather than scanning a single laser across a scene, the ToF camera projects a broad beam and captures the entire scene at once. The sensors are arranged in a grid, much like image sensors, and distance is measured on a pixel by pixel basis. There are a number of projection/sensing technologies including phase detection, range gated imagers and direct ToF imagers. ToF camera technology is sometimes referred to as scannerless LiDAR or Flash LiDAR.
 
 A popular example of a ToF camera is the [Kinect for Xbox One](https://www.xbox.com/en-US/xbox-one/accessories/kinect) (the original Kinect for Xbox 360 was a structured light camera):
 
@@ -85,7 +91,7 @@ We wanted to start experimenting with 3D sensing, so we compared the various tec
 * Color Point Cloud: Generation of color point clouds in real time (0=none, 3=lots)
 * Size/Weight: Size and weight (0=large/heavy, 3=small/light)
 * Power: Power needed to sense (0=lots, 3=little)
-* Price: Price of a typical unit on the market (0=$$$$,3=$)
+* Price: Price of a typical unit on the market (0=\$\$\$\$,3=\$)
 * Compute: Amount of compute required to generate point clouds (0=lots, 3=little)
 
 ![Comparison Table](/assets/seeing-in-3d/comparison.png)
