@@ -11,13 +11,19 @@ Before we start to think about machine learning in 3D, let us first understand h
 
 ## 3D Imaging Technologies
 
+The idea with 3D imaging is to figure out where everything is in 3D space. To figure out where every point of every object is in 3D has a lot of challenges. Instead, these 3D technologies sample a subset of points in the scene, determining their X/Y/Z coordinates, creating a [point cloud](https://en.wikipedia.org/wiki/Point_cloud). The image below shows a point cloud from 2 different perspectives.
+
+![Point Cloud](/assets/seeing-in-3d/librealsense-pointcloud.png)
+
+The following sections describe various 3D imaging technologies.
+
 ### Photogrammetry
 
-[Photogrammetry](https://en.wikipedia.org/wiki/Photogrammetry) is the use of photography to make measurements. Photogrammetry has many applications, one of which is generating 3D structure from multiple 2D images. The method involves photographing a scene from multiple, overlapping angles. By applying concepts from optics and geometry, points from overlapping images can be correlated and their location in 3D space can be calculated (see image from the paper [Reconstructing Rome](https://www.computer.org/csdl/mags/co/2010/06/mco2010060040-abs.html) below). Since this method produces a 3D structure using photos from various locations, it is also known as [Structure from Motion](https://en.wikipedia.org/wiki/Structure_from_motion).
+[Photogrammetry](https://en.wikipedia.org/wiki/Photogrammetry) is the use of photography to make measurements. Photogrammetry has many applications, one of which is generating 3D structure from multiple 2D images. The method involves photographing a scene from multiple, overlapping angles. By applying concepts from optics and geometry, points from overlapping images can be correlated and their location in 3D space can be calculated (see image from the paper [Reconstructing Rome](https://www.computer.org/csdl/mags/co/2010/06/mco2010060040-abs.html) below).
 
 ![Structure from Motion Diagram](/assets/seeing-in-3d/sfm-diagram.gif)
 
-For an interesting example of SfM, check out [Building Rome in a Day](http://grail.cs.washington.edu/projects/rome/), where a research team from the University of Washington reconstructed 3D models of Rome (and a few other cities) using photos harvested from Flickr.
+These calculations can be used to create a point cloud of the scene, but only if there are a sufficient number of images with sufficient overlap. Since this method produces a 3D structure using photos from various locations, it is also known as [Structure from Motion](https://en.wikipedia.org/wiki/Structure_from_motion). For an interesting example of SfM, check out [Building Rome in a Day](http://grail.cs.washington.edu/projects/rome/), where a research team from the University of Washington reconstructed 3D models of Rome (and a few other cities) using photos harvested from Flickr.
 
 > Pros: Can use any digital cameras; no light projection
 >
@@ -25,9 +31,7 @@ For an interesting example of SfM, check out [Building Rome in a Day](http://gra
 
 ### Stereo Camera
 
-A stereo camera utilizes two image sensors fixed at a known distance and orientation to emulate binocular vision. This is a special case of photogrammetry called stereophotogrammetry. The stereo setup can be used to calculate a [depth map](https://en.wikipedia.org/wiki/Depth_map) using triangulation. The depth information can be combined with the RGB data to calculate a [point cloud](https://en.wikipedia.org/wiki/Point_cloud) of the scene. The image below shows a point cloud from 2 different perspectives.
-
-![Point Cloud](/assets/seeing-in-3d/librealsense-pointcloud.png)
+A stereo camera utilizes two image sensors fixed at a known distance and orientation to emulate binocular vision. This is a special case of photogrammetry called stereophotogrammetry. The stereo setup can be used to calculate a [depth map](https://en.wikipedia.org/wiki/Depth_map) using triangulation. The depth information can be combined with the RGB data to calculate a of the scene. The calculations are similar to photogrammetry, but the relationship between the two cameras is known.
 
 An example of stereo camera is the [ZED from Stereolabs](https://www.stereolabs.com/zed/).
 
@@ -39,15 +43,11 @@ An example of stereo camera is the [ZED from Stereolabs](https://www.stereolabs.
 
 ### Structured Light Camera
 
-[Structured light](https://en.wikipedia.org/wiki/Structured_light) utilizes a projected pattern of light onto the scene. Patterns can range from lines and grids to randomly places dot patterns. The camera senses the scene and calculates the depth information based on the deformation of the known pattern. To avoid disrupting the scene, the projected light pattern is often something outside the visible spectrum, such as infrared (IR).
+[Structured light](https://en.wikipedia.org/wiki/Structured_light) utilizes a projected pattern of light onto the scene. Patterns can range from lines and grids to random dot patterns. The camera senses the scene and calculates the depth information based on the deformation of the known pattern. To avoid disrupting the scene, the projected light pattern is often something outside the visible spectrum, such as infrared (IR).
 
 ![Intel RealSense R200](/assets/seeing-in-3d/realsense-r200-crop.jpg)
 
 Some good examples using of a structured light are the latest [Intel RealSense](https://realsense.intel.com/‎) cameras (R200 pictured above). They actually combine structured light and stereo (**Structure+Stereo**) by utilizing an IR projection and two IR image sensors to provide more accurate depth information. The depth map is combined with a color camera to produce point clouds.
-
-![Intel RealSense Images](/assets/seeing-in-3d/librealsense-alignment.png)
-
-In the above diagram, the upper left shows the color sensor output. The upper middle image shows the depth map (red is near and blue is far). The upper right image shows the color image aligned with the depth map (essentially a point cloud). The bottom row shows the two IR sensors as well as one of the IR sensors aligned with the depth map. Notice the dot pattern visible in the IR images.
 
 > Pros: Fairly small; easier computation; Structure+Stereo has better resolution and accuracy compared to Structured or Stereo alone
 >
@@ -55,7 +55,7 @@ In the above diagram, the upper left shows the color sensor output. The upper mi
 
 ### LiDAR
 
-[LiDAR](https://en.wikipedia.org/wiki/Lidar) determines the distance to a target by projecting a laser and measuring the time it takes to receive the reflection. By scanning the laser across a scene, a point cloud can be generated, however the point cloud does not provide color information. These [laser scanning](https://en.wikipedia.org/wiki/Laser_scanning) LiDAR are used quite extensively in autonomous cars. The image below shows a Google Car and LiDAR image from an article in [Popular Science](https://www.popsci.com/cars/article/2013-09/google-self-driving-car). The rings indicate the scanning patter of the laser.
+[LiDAR](https://en.wikipedia.org/wiki/Lidar) determines the distance to a target by projecting a laser and measuring the time it takes to receive the reflection. By scanning the laser across a scene, a point cloud can be generated, however the point cloud does not provide color information. These [laser scanning](https://en.wikipedia.org/wiki/Laser_scanning) LiDAR are used quite extensively in autonomous cars. The image below shows a Google Car and LiDAR image from an article in [Popular Science](https://www.popsci.com/cars/article/2013-09/google-self-driving-car). The rings indicate the scanning pattern of the laser.
 
 ![Google Car LiDAR](/assets/seeing-in-3d/lidar-google-car.jpg)
 
