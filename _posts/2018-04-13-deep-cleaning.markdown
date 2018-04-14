@@ -2,7 +2,7 @@
 layout: post
 title:  "Deep Cleaning: It's a real bear!"
 author: Ed
-date:   2018-04-13 16:00:00
+date:   2018-04-13 12:00:00
 excerpt: "Storing, organizing, labeling and cleaning data for the BearID Project."
 ---
 
