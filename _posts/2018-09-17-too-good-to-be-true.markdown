@@ -2,7 +2,7 @@
 layout: post
 title:  "Too Good To Be True"
 author: Ed
-date:   2018-09-14 12:00:00
+date:   2018-09-17 12:00:00
 excerpt: "When things seem little to good to be true, they probably are too good."
 ---
 [![alt text](/assets/too-good/LogoSkupaj1.jpg "Life with bears – 26th International Conference on Bear Research and Management")](https://lifewithbears.eu/)
