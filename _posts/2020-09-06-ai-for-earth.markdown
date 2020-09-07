@@ -5,11 +5,13 @@ author: Ed
 date:   2020-09-06 18:00:00
 excerpt: "Initial experiments with Microsoft AI for the BearID Project through Microsoft's AI for Earth program. Creating an image classifier without writing any code using Microsoft Azure Custom Vision."
 ---
+![Azure Computer Vision: Brooks Falls](/assets/ai-for-earth/cv-brooks.png)
+
 In 2019, the BearID Project received a grant from Microsoft’s [AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth) program. This grant provides access to AI tools and Azure compute resources to advance our research in noninvasive techniques for monitoring brown bears. For the past year, we have been focused on developing our application using our local deep learning machine, [otis](https://hypraptive.github.io/2017/02/13/dl-computer-build.html), and writing our first paper on the project (more on the paper in a future post). Fortunately, the AI for Earth program has extended our grant for another year, and this time we are making use of it!
 
 ## Microsoft Azure
 
-![Microsoft Logo](/assets/ai-for-earth/MicrosoftLogo.png){:align="left" style="margin-right:0px; margin-bottom:0px; width:240px;"} The AI for Earth grant provides credits for [Microsoft Azure](https://azure.microsoft.com/). Azure includes a wide range of cloud services for building, testing, deploying and managing applications and services. Azure's AI products range from low level infrastructure services, such as storage and compute, up to fully-managed [Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/), such as speech translation and computer vision.
+The AI for Earth grant provides credits for [Microsoft Azure](https://azure.microsoft.com/). Azure includes a wide range of cloud services for building, testing, deploying and managing applications and services. Azure's AI products range from low level infrastructure services, such as storage and compute, up to fully-managed [Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/), such as speech translation and computer vision.
 
 ### Computer Vision
 
@@ -78,6 +80,6 @@ The final step is to [deploy the model](https://docs.microsoft.com/en-us/azure/c
 
 ## Conclusion
 
-In less than 30 minutes and for a few dollars (depending on your dataset; or for free on a Free Tier), you can train and deploy a Custom Vision model without writing a line of code. For reference, it took me longer to write this blog than it did to perform all the steps on the Custom Vision portal! If you have a lot of data, you may find using the web portal a bit tedious. At this point you probably want to start using the [Custom Vision SDK](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/quickstarts/image-classification?pivots=programming-language-python). In the next installment, I'll take a look at implementing a bear ID classifier and bear face object detector using the SDK.
+In less than 30 minutes and for a few dollars (depending on your dataset; or for free on a Free Tier), you can train and deploy a Custom Vision model without writing a single line of code. For reference, it took me longer to write this blog than it did to perform all the steps on the Custom Vision portal! If you have a lot of data, you may find using the web portal a bit tedious. At this point you probably want to start using the [Custom Vision SDK](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/quickstarts/image-classification?pivots=programming-language-python). In the next installment, I'll take a look at implementing a bear ID classifier and bear face object detector using the SDK.
 
 Until net time, _SBD_.
