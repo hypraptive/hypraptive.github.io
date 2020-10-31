@@ -182,7 +182,7 @@ while (iteration.status != "Completed"):
     time.sleep(1)
 ```
 
-Alternatively, you can run the training using the web portal, much like in the [classification example](http://127.0.0.1:4000/2020/09/06/ai-for-earth.html).
+Alternatively, you can run the training using the web portal, much like in the [classification example](/2020/09/06/ai-for-earth.html).
 
 Once training is complete, you can see the cross-validation performance on the web portal:
 
