@@ -33,6 +33,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-disqus:
-  shortname: hypraptive
 google_analytics: UA-89906508-1
